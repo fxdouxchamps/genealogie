@@ -1,0 +1,113 @@
+body {background: #3c5d8a; background-color: #3c5d8a; background-image: url(separation1.gif); background-position: 50% 80px; background-repeat: no-repeat; margin: 0% 0% 0% 0%}
+
+a {color: #C4FFFF;}
+
+h1 {font-family: "Times New Roman",serif; font-size:24pt; font-weight:bold; color:white; text-align: center; margin: 0% 0% 0% 0%;}
+
+h2 {color: white; font-family: arial,serif; font-size: 14pt; font-weight: bold; margin:  1% 0% 5% 0%; text-align: center;}
+
+h3 {color: white; font-family:   arial,serif; font-size: 12pt; font-weight: bold; margin: 0% 0% 0% 3%; text-decoration: underline}
+
+h4 {text-align: center;}
+
+#menu {margin: 0% 0% 0% 2%; position: absolute; top: 160px; width: 164px}
+
+#menu ul {margin: 0%; padding: 0%; list-style-type: none; font: normal 90% "Trebuchet MS", "Lucida Grande", Arial, sans-serif;}
+
+#menu li a {display: block; padding: 3px 0; padding-left: 4px; width: 160px;  text-decoration: none; color: white; background-color: #43699c; border-bottom: 1px solid #90bade;}
+
+#menu li a:hover {background-color: #2586d7; border-left-color: #1c64d1;}
+
+div.menutitle {background-color: #43699c; background-image: url(hautmenu1.jpg); color: white; font: bold 12pt serif,verdana; padding-left: 0px; text-align: center; width: 164px}
+
+#table ul {font: normal 11pt arial,sans-serif; list-style-type: none}
+
+#table li {margin: 1% 3% 1% -1%}
+
+#lp ul {font:  normal 11pt arial,sans-serif; list-style-type: disc ; color: white;}
+
+#lp li {margin:   1% 3% 1% 3%}
+
+#lp span {font-size: 10pt; font-style: italic;}
+
+div.section1 {background-color: #43699c; left: 240px; margin: 0% 0% 0% 0%; position: absolute; top: 160px; width: 78%}
+
+p.section1 {color: white; font-family: arial,sans-serif; font-size: 11pt; margin:   1% 5% 1% 3%; text-align: justify;}
+
+td.section1 {color: white; font-family: arial,sans-serif; font-size: 11pt; text-align: center;}
+
+p.mariage {color: white; font-family:   arial,sans-serif; font-size: 11pt; margin: 1% 5% 1% 10%; text-align: justify;}
+
+p.union {color: white; font-family:    arial,sans-serif; font-size: 11pt; font-style: italic; margin:    1% 5% 1% 14%; text-align: justify;}
+
+p.enf {color: white; font-family: arial,sans-serif; font-size: 11pt; margin: 1% 5% 1% 18%; text-align: justify;}
+
+p.note {color: white; font-family: arial,sans-serif;font-size: 10pt; font-style: italic; margin: 1% 5% 1% 20%; text-align: justify;}
+
+p.pat1 {color: white; font:  bold 10pt arial,sans-serif; margin-left: 3%; text-align: center; width: 95%;}
+
+p.pat2 {color: white; font:     normal 10pt arial,sans-serif; margin-left: 3%; margin-right: 5%; text-align: center; width: 95%}
+
+li.section1 {color: white; font-family: arial,sans-serif; font-size: 11pt; margin:   0% 5% 2% 5%;}
+
+li.section1a {color: white; font-family: arial,sans-serif; font-size: 11pt; margin:  0% 0% 2% 5%;}
+
+li.section1b {color: white; font-family: arial,sans-serif; font-size: 11pt; margin:  0% 0% 2% 5%;}
+
+img.tree {height: 16px; width: 20px}
+
+img.photo {border: none; height: 120px; width: 80px}
+
+span.ref {font-size: 10pt}
+
+#gen1 table {border-collapse: collapse; margin:     0% 0% 0% 0%; table-layout: fixed; width: 100%}
+
+#gen1 td {color: white; font-family: arial,sans-serif; font-size: 10pt; font-weight: bold; text-align: center;}
+
+#gen1 span {font-size: 9pt; font-weight: normal; margin:    0% 0% 0% 0%; text-align: center;}
+
+#gen11 table {border: 1pt solid white; border-collapse: collapse; margin-left: 2%; margin-right: 0%; width: 96%}
+
+#gen11 th {border: 1pt solid white; border-collapse: collapse; color: white; font-family:   arial,sans-serif; font-size: 11pt; margin:     0% 0% 0% 0%; text-align: center}
+
+#gen11 td {border:   1pt solid white;}
+
+#gen11 p {color: white; font-family:     arial,sans-serif; font-size: 10pt; font-weight: normal; margin:       0% 0% 0% 2%; text-align: left}
+
+#gen11 span {font-size: 9pt; text-align: left; font-weight: normal; margin:   0% 0% 0% 0%;}
+
+td.bottom_right {border-top:0px; border-right: 1px solid black; border-left:0px ;  border-bottom:1px groove black;}
+
+td.bottom_left {border-top: 0px; border-right: 0px; border-left: 1px solid black ;  border-bottom: 1px groove black;}
+
+td.left {border-top:0px; border-right:0px;  border-bottom:0px; border-left: 1px solid black;}
+
+td.right {border-top:0px; border-right:1px solid black;  border-bottom:0px; border-left: 1px solid black;}
+
+#section11 img {height: 2px; width:100%;}
+
+#section11 p {color: white; font-family:      arial,sans-serif; font-size: 8pt; font-weight: normal; margin:        0% 0% 0% 2%; text-align: center}
+
+#form table {border-collapse: collapse; margin: 0% 0% 0% 24%; table-layout: auto; width: 60%}
+
+#form span {color: white; font-family: arial,sans-serif; font-size: 11pt; font-weight: normal;}
+
+#sondage table {border-collapse: collapse; margin: 0% 0% 0% 30%; table-layout: auto; width: 100%;}
+
+#envoi table {border-collapse: collapse; margin: 0% 0% 0% 40%; table-layout: auto; width: 40%;}
+
+#liste ol {list-style-type: decimal; margin-top: 2%;}
+
+#liste span {font-weight: bold;}
+
+#liste1 ol {list-style-type: decimal; margin-top: 2%; margin-left: 10%;}
+
+#liste1 ul {list-style-type: disc; margin-top: 2%; margin-left: 10%;}
+
+#liste2 ol {list-style-type: decimal; margin-top: 2%; margin-left: 20%;}
+
+#liste ul {list-style-type: disc; margin-top: 2%;}
+
+span.rem {font-weight: bold; text-decoration: underline;}
+
+/* Fin de la section de style généré par WebExpert le 25/02/2009 16:50:48 */
