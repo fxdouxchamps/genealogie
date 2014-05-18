@@ -62,7 +62,7 @@ public class GenPagesUtil {
 							+ ".html\"><img class=\"tree\" src=\"tree.png\" alt=\"Arbre\" /></a></p>");
 				}
 				if (family.getChildren().size() > 1) {
-					writer.append("<p class=\"union\">De cette union sont nés :</p>");
+					writer.append("<p class=\"union\">De cette union sont n?s :</p>");
 					for (Integer childId : family.getChildren()) {
 						Person child = getPerson(childId, persons);
 						writer.append("<a name=\"c" + (child.getId() - 1) + "\"></a>");
@@ -94,7 +94,7 @@ public class GenPagesUtil {
 					}
 				}
 				writer
-						.append("<hr /><div id=\"section11\"> <img src=\"separation.gif\" alt=\"ligne\" /><p>Webmaster : F-X Douxchamps</p> <br /> <p>Ce site Web a été créé le 19 Novembre 2007 avec&nbsp;<a href=\"http://software.visicommedia.com/fr/products/webexpert/\">Webexpert 6.6</a></p> <img src=\"separation.gif\" alt=\"ligne\" /> <br /> <p>© Copyright 2007</p> <br /> </div>");
+						.append("<hr /><div id=\"section11\"> <img src=\"separation.gif\" alt=\"ligne\" /><p>Webmaster : F-X Douxchamps</p> <br /> <p>Ce site Web a ?t? cr?? le 19 Novembre 2007 avec&nbsp;<a href=\"http://software.visicommedia.com/fr/products/webexpert/\">Webexpert 6.6</a></p> <img src=\"separation.gif\" alt=\"ligne\" /> <br /> <p>? Copyright 2007</p> <br /> </div>");
 
 				addEnd(writer);
 			}
@@ -120,7 +120,7 @@ public class GenPagesUtil {
 			writer = new BufferedWriter(new FileWriter(secondGen));
 			addStart(writer);
 			writer.append("<div class=\"section1\">");
-			writer.append("<h2>Descendance d'Ignace Douxchamps : "+s1+" Génération</h2>");
+			writer.append("<h2>Descendance d'Ignace Douxchamps : "+s1+" G?n?ration</h2>");
 			for (Person person : genPersons) {
 				if (person.getFamilyId().isEmpty())
 					continue;
@@ -192,7 +192,7 @@ public class GenPagesUtil {
 						}
 					}
 					if (family.getChildren().size() >= 1) {
-						writer.append("<p class=\"union\">De cette union sont nés :</p>");
+						writer.append("<p class=\"union\">De cette union sont n?s :</p>");
 						for (Integer childId : family.getChildren()) {
 							Person child = getPerson(childId, persons);
 							writer.append("<a name=\"c" + (child.getId() - 1) + "\"></a>");
@@ -232,7 +232,7 @@ public class GenPagesUtil {
 				writer.append("<hr />");
 			}
 			writer
-					.append("<div id=\"section11\"> <img src=\"separation.gif\" alt=\"ligne\" /><p>Webmaster : F-X Douxchamps</p> <br /> <p>Ce site Web a été créé le 19 Novembre 2007 avec&nbsp;<a href=\"http://software.visicommedia.com/fr/products/webexpert/\">Webexpert 6.6</a></p> <img src=\"separation.gif\" alt=\"ligne\" /> <br /> <p>© Copyright 2007</p> <br /> </div>");
+					.append("<div id=\"section11\"> <img src=\"separation.gif\" alt=\"ligne\" /><p>Webmaster : F-X Douxchamps</p> <br /> <p>Ce site Web a ?t? cr?? le 19 Novembre 2007 avec&nbsp;<a href=\"http://software.visicommedia.com/fr/products/webexpert/\">Webexpert 6.6</a></p> <img src=\"separation.gif\" alt=\"ligne\" /> <br /> <p>? Copyright 2007</p> <br /> </div>");
 
 			addEnd(writer);
 		} catch (IOException e) {

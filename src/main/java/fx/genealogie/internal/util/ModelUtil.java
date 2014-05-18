@@ -42,7 +42,7 @@ public class ModelUtil {
 		if(personId == null)
 			return null;
 		for (Person person : persons) {
-			if (personId.equals(person.getId()))
+			if (person != null && personId.equals(person.getId()))
 				return person;
 		}
 		return null;

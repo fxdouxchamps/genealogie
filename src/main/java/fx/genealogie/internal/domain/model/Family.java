@@ -5,74 +5,74 @@ import java.util.List;
 
 public class Family implements Comparable<Family> {
 
-	private Integer id;
-	private Integer husband;
-	private Integer wife;
-	private String weddingDate;
-	private String weddingPlace;
-	
-	private List<Integer> children;
+    private Integer id;
+    private Integer husband;
+    private Integer wife;
+    private String weddingDate;
+    private String weddingPlace;
 
-	public Family(Integer id) {
-		this.id = id;
-	}
+    private List<Integer> children;
 
-	public int compareTo(Family o) {
-		return this.id.compareTo(o.getId());
-	}
+    public Family(Integer id) {
+        this.id = id;
+    }
 
-	public Integer getId() {
-		return id;
-	}
+    public int compareTo(Family o) {
+        return this.id.compareTo(o.getId());
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public Integer getHusband() {
-		return husband;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setHusband(Integer husband) {
-		this.husband = husband;
-	}
+    public Integer getHusband() {
+        return husband;
+    }
 
-	public Integer getWife() {
-		return wife;
-	}
+    public void setHusband(Integer husband) {
+        this.husband = husband;
+    }
 
-	public void setWife(Integer wife) {
-		this.wife = wife;
-	}
+    public Integer getWife() {
+        return wife;
+    }
 
-	public List<Integer> getChildren() {
-		if(children == null)
-			children = new ArrayList<Integer>();
-		return children;
-	}
+    public void setWife(Integer wife) {
+        this.wife = wife;
+    }
 
-	public void setChildren(List<Integer> children) {
-		this.children = children;
-	}
+    public List<Integer> getChildren() {
+        if (children == null)
+            children = new ArrayList<>();
+        return children;
+    }
 
-	public String getWeddingDate() {
-		if(weddingDate == null || weddingDate.indexOf("Inconnue") != -1)
-			weddingDate = "";
-		return weddingDate;
-	}
+    public void setChildren(List<Integer> children) {
+        this.children = children;
+    }
 
-	public void setWeddingDate(String weddingDate) {
-		this.weddingDate = weddingDate;
-	}
+    public String getWeddingDate() {
+        if (weddingDate == null || weddingDate.contains("Inconnue"))
+            weddingDate = "";
+        return weddingDate;
+    }
 
-	public String getWeddingPlace() {
-		if(weddingPlace == null)
-			return "";
-		return weddingPlace;
-	}
+    public void setWeddingDate(String weddingDate) {
+        this.weddingDate = weddingDate;
+    }
 
-	public void setWeddingPlace(String weddingPlace) {
-		this.weddingPlace = weddingPlace;
-	}
+    public String getWeddingPlace() {
+        if (weddingPlace == null)
+            return "";
+        return weddingPlace;
+    }
+
+    public void setWeddingPlace(String weddingPlace) {
+        this.weddingPlace = weddingPlace;
+    }
 
 }

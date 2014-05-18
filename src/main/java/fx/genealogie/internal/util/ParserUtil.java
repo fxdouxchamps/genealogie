@@ -113,8 +113,8 @@ public class ParserUtil {
 			} else if (line.startsWith("1") && line.indexOf("FAMC") != -1) {
 			} else if (line.startsWith("1") && line.indexOf("PHON") != -1) {
 			} else if (line.startsWith("1") && line.indexOf("_STAT Never Married") != -1) {
-			} else if (line.startsWith("1") && line.indexOf("NOTE") != -1) {
-				person.setNoteId(Integer.valueOf(line.split("@")[1].substring(2)));
+			} else if (line.startsWith("1") && line.indexOf("NOTE") != -1 && line.indexOf("_INC_NOTES") == -1) {
+                person.setNoteId(Integer.valueOf(line.split("@")[1].substring(2)));
 			} else if (line.indexOf("NAME") != -1 || line.indexOf("_UID") != -1
 					|| line.indexOf("99999999999999999999") != -1 || line.indexOf("99999999999999999999") != -1
 					|| line.indexOf("99999999999999999999") != -1 || line.indexOf("99999999999999999999") != -1) {
